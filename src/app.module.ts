@@ -11,7 +11,7 @@ import { AnswerKeyModule } from './modules/answer-key/answer-key.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '47.113.144.160',
+      host: 'localhost',
       port: 3306,
       username: 'root',
       password: 'root',
